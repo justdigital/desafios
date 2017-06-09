@@ -36,7 +36,7 @@ Lembrando que não é necessário aplicar nenhum funcionamento no back-end caso 
 
 Caso você não faça front-end, todos os endpoints devem ser feitos usando endpoints JSON.
 
-Em resumo, você fará uma API que exibe os detalhes de um post, a lista e permite a criação / edição de posts.
+Em resumo, você fará uma API que exibe os detalhes, a listagem e a criação / edição / remoção de posts.
 
 ## Bônus adicionais
 
