@@ -28,7 +28,7 @@ Caso você não programe back-end, o desafio será criar apenas os temas do site
 
 - Homepage (listando os últimos posts)
 - Detalhe do post (ilustrar cenários onde há novos campos no conteúdo post)
-- Formuĺário de criação e edição do post (ilustrar cenários onde há novos campos no conteúdo post)
+- Formuĺário de criação e edição do post
 
 Lembrando que não é necessário aplicar nenhum funcionamento no back-end caso você não faça frontend
 
