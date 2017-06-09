@@ -34,7 +34,9 @@ Lembrando que não é necessário aplicar nenhum funcionamento no back-end caso 
 
 ## Não faço front-end
 
-Caso você não faça front-end, a camada de tema (nem homepage) todos os endpoints devem ser feitos usando endpoints JSON.
+Caso você não faça front-end, todos os endpoints devem ser feitos usando endpoints JSON.
+
+Em resumo, você fará uma API que exibe os detalhes de um post, a lista e permite a criação / edição de posts.
 
 ## Bônus adicionais
 
