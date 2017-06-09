@@ -6,6 +6,9 @@ O intuito desse desafio é avaliar de forma simples, ou seja, não é necessári
 
 Esse teste pode ser feito por front-ends, back-ends e fullstack developers, leia todo o conteúdo dessa página pra saber as instruções para cada papel mostrado.
 
+## Restrições
+ - *Não é permitido o uso de frameworks de CMS ou MVC, apenas bibliotecas*
+
 ## Requisitos mínimos do CMS
 
 As seguintes funcionalidades são esperadas na aplicação:
@@ -14,11 +17,10 @@ As seguintes funcionalidades são esperadas na aplicação:
 - Criação e edição de conteúdos (posts) com os campos:
   - título
   - corpo
-  - path (exemplo: /2017/11/21/titulo-do-post
+  - path (exemplo: /noticias/titulo-do-post
 - Visualização do conteúdo
 - Listagem de conteúdos
-- Criação e edição de novos campos para o conteúdo post (ex.: permitir o usuário administrador adicionar um campo novo de texto com nome personalizado)
-- As páginas criadas devem ser acessíveis
+- As páginas criadas devem ser acessíveis pela rota no "path"
 
 ## Não faço back-end
 
@@ -27,9 +29,8 @@ Caso você não programe back-end, o desafio será criar apenas os temas do site
 - Homepage (listando os últimos posts)
 - Detalhe do post (ilustrar cenários onde há novos campos no conteúdo post)
 - Formuĺário de criação e edição do post (ilustrar cenários onde há novos campos no conteúdo post)
-- Formulário para alterar os campos do post (metadados), por exemplo: Adicionar 
 
-Lembrando que não é necessário aplicar nenhum funcionamento no back-end
+Lembrando que não é necessário aplicar nenhum funcionamento no back-end caso você não faça frontend
 
 ## Não faço front-end
 
@@ -41,3 +42,4 @@ Caso você não faça front-end, a camada de tema (nem homepage) todos os endpoi
 2. Utilizar taskrunners
 3. Código padronizado
 4. Código comentado com explicações
+5. Criar Dockerfile correspondente ao projeto
