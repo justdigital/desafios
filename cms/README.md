@@ -40,7 +40,7 @@ Em resumo, você fará uma API que exibe os detalhes, a listagem e a criação /
 
 ## Bônus adicionais
 
-1. Testes de unidade / de integração
+1. Testes de unidade / comportamento
 2. Utilizar taskrunners
 3. Código padronizado
 4. Código comentado com explicações
