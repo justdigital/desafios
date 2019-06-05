@@ -1,34 +1,46 @@
 # Desafio de contratação - Desenvolvedor Web Front-end
 
-O desafio é desenvolver um quiz com 10 perguntas com base na API da Marvel Comics.
+Este é um desafio para testar seus conhecimentos em JavaScript e algum framework de sua preferência (React, Vue, Angular, etc)
 
-http://developer.marvel.com/docs
+Neste desafio existem várias respostas corretas, pois o objetivo é avaliar a sua forma de codificação, e suas habilidades usando a tecnologia escolhida.
 
-## Interface
+## Carrinho de Compras
 
-1. Imagem de um personagem aleatório vinda da API
-2. Input para texto de resposta
-3. Pontuação
-4. Opção de desistência para usuário ver o nome do personagem na tela (I give up, who is it?)
-5. Ser responsivo
-6. Aplicar estilo sobre wireframe apresentado.
+Seu objetivo é montar um carrinho de compras.
 
-## Regras de Negócio
+O layout deve ser como de um site de vendas convencional, com uma listagem de produtos e um icone de carrinho de compras no topo do site.
 
-1. Caso resposta correta: Somar um ponto
-2. Caso resposta incorreta: Subtrai um ponto
-3. Caso resposta correta com dica utilizada: Não soma ponto
-4. Quando acessado a partir de mobile ser possível compartilhar resultado pelo whatsapp.
+O icone do carrinho de compras deve exibir uma badge com a quantidade de itens presente no carrinho.
 
-![CNC - Infra](marvelous-quiz.png)
+### A tela de listagem de produtos deve:
+
+- Listar produtos
+  - Ao entrar no site, deve exibir os produtos na listagem com foto, titulo e preço formatado em reais;
+  - Ao clicar no produto da lista, deve exibir os detalhes de um produto individual;
+- Permitir comprar
+  - Ao clicar em comprar, e o produto não estiver no carrinho, deve ser adicionado;
+  - Ao clicar em comprar, e o produto ja existir no carrinho, deve ser incrementado em 1;
+- Exibir o resumo do carrinho
+  - Exibir no icone do carrinho uma badge com quantidade de itens;
+  - Exibir ao lado do icone, o valor total da compra;
+
+### O carrinho deve:
+
+- Permitir remover itens;
+  - Ao remover, liberar o estoque do produto;
+- Permitir alterar a quantidade de um item
+  - Ao clicar em aumentar, deve incrementar em 1;
+  - Ao clicar em diminuir, deve decrementar em 1;
+  - Ao incrementar, deve validar se o produto ainda possui estoque;
+  - Ao decrementar, deve liberar o estoque do produto;
+  - Não deve permitir o usuário informar quantidade zero;
+- Exibir a somatória total dos itens incluídos
 
 ## Bônus adicionais
 
-1. Adicionar alguma funcionalidade que você julgue relevante ao Quiz
-2. Utilizar Framework (React.js, Vue.js, Angular, etc)
+1. Adicionar alguma funcionalidade que você julgue relevante;
+2. Utilizar biblioteca gerenciadora de estado (Redux, Vuex, MobX, etc)
 3. Testes de unidade / comportamento
-4. Utilizar taskrunners
-5. Código padronizado
+4. Código padronizado
+5. Versionamento utilizando GIT
 6. Código comentado com explicações
-7. Criar Dockerfile correspondente ao projeto
-8. Versionamento utilizando GIT
